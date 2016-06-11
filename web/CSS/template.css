@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23/04/2016, 15:19:07
+    Author     : Marco Antonio
+*/
+
+   #demo-crud-table tr > td:first-of-type, #demo-crud-table thead > th:first-of-type {
+        width: 190px;
+    }
+
+    #demo-crud-table tr > td:nth-of-type(2), #demo-crud-table thead > th:nth-of-type(2) {
+        text-align:center;
+        width:90px;
+    }
+
+    #demo-crud-table tr > td:nth-of-type(3), #demo-crud-table thead > th:nth-of-type(3) {
+        text-overflow:ellipsis;
+    }
+
+    #demo-crud-table tr > td:last-of-type, #demo-crud-table thead > th:last-of-type {
+        text-align:right;
+        width:80px;
+    }

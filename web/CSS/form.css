@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27/03/2016, 14:08:03
+    Author     : Marco Antonio
+*/
+*{
+    margin:0;
+    padding:0;
+    font-family: arial,sans-serif;
+}
+body{
+    background-color:#ddd;
+}
+form{
+padding:20px;
+float: left;
+background: #fff;
+width:900px;
+overflow: hidden;
+margin-left: 100px;
+box-shadow: 1px 1px 1px #000;
+}
+.label_cetil{ 
+ width:53px;
+}
+
+.input_1{
+    width:800px;
+    height: 100px;
+}
+.DO-input{
+    width: 50px;
+}
+.valores{
+    width: 100px;
+}
+.despesas-submit{
+    padding: 5px;
+}
+.despesas-submit:hover{
+    cursor: pointer;
+}
+fieldset{
+    width:750px;
+}
+#right{
+    margin-left: 83px;
+}
+#right2{
+    margin-left:115px;
+}
+.checkbox{
+    margin-left:40px; 
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.dot{
+    clear:both;
+}
